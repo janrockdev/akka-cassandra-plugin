@@ -10,7 +10,7 @@ object Demo extends App {
   val tag = "yo" // search tag (input)
 
   private val cluster = Cluster.builder()
-    .addContactPoint("51.140.120.14")
+    .addContactPoint("<IP>")
     .withPort(9042)
     .build()
 
